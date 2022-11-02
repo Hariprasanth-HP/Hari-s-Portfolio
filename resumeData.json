@@ -1,0 +1,118 @@
+{
+  "main": {
+    "name": "Hari Prasanth",
+    "occupation": "Front End Developer",
+    "description": " with 1.5 years experience building and maintaining responsive websites in the industry. Proficient in HTML, CSS , JavaScript and React JS , plus modern libraries and frameworks",
+    "image": "profile.jpg",
+    "bio": "Hi there! I am Hari! I've been coding for over 1.5 years now. As a Front End developer I've worked both with startup and large corporations to help build & scale their companies.",
+    "contactmessage": "Get in touch with me !",
+    "email": "hari16205@gmail.com",
+    "phone": "+91 9597484516",
+    "address": {
+      "street": "Vivekanandar street",
+      "city": "Neyveli",
+      "state": "Tamil Nadu",
+      "zip": "607807"
+    },
+    "website": "https://my-portfolio-58542.web.app/",
+    "resumedownload": "https://drive.google.com/file/d/17DcucgTfgkOARv-jrGp8TMb45fFt54Xq/view?usp=share_link",
+    "social": [
+     
+      {
+        "name": "github",
+        "url": "https://github.com/Hariprasanth-HP",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "My Programming Language Proficiency",
+    "education": [
+      {
+        
+        "degree": "Bachelor's Degree, Electrical and Electronics Engineering",
+        "graduated": "April 2021",
+        "description": "Graduated with First Class Honours"
+      }
+    ],
+    "work": [
+      {
+        "company": "Bosch Limited",
+        "title": "Front End Developer",
+        "years": "May  - Present",
+        "description": "Aspiring Software developer with 1.5+ years experience , handled more than 3 projects with complete styling and logical knowledge "
+      }
+    ],
+    "skills": [
+      {
+        "name": "ReactJs",
+        "level": "90%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "99%"
+      }, {
+        "name": "HTML & CSS",
+        "level": "90%"
+      }, {
+        "name": "Tailwind Styling , Styled Components",
+        "level": "90%"
+      },
+      {
+        "name": "Typescript",
+        "level": "60%"
+      },
+      {
+        "name": "Git",
+        "level": "70%"
+      },
+      {
+        "name": "Web Development",
+        "level": "95%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Manufacturing Excecution System (React JS)",
+        "category": "",
+        "image": "MES.jpg"
+       
+      },
+      {
+        "title": "Netflix Clone (React JS)",
+        "category": "",
+        "image": "Netflix.jpg",
+        "url": "https://netflix-clone-hari.web.app/"
+        
+      },
+      {
+        "title": "Integrated Energy Web application (IEP)(React JS)",
+        "category": "",
+        "image": "IEP.jpg"
+   
+      },
+      {
+        "title": "Bosch Tube Media(React JS)",
+        "category": "",
+        "image": "Media.jpg"
+   
+      }
+
+     
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Sonny is absolutely excellent, his depth of knowledge & his mentorship really meant a lot to us... I would definitely recommend",
+        "user": "Jorge Fouto"
+      },
+      {
+        "text": "Learning with Sonny has been AWESOME, he makes learning React so easy and approachable, you'll finally feel like you know what's going on!",
+        "user": "Adam Curtis"
+      }
+    ]
+  }
+}
