@@ -9,9 +9,6 @@ const Contact = ({ data }) => {
     formSubmitted: false,
   });
   const handleSubmit = (req) => {
-    alert("submit");
-    console.log("handleSubmit form_name", req.form_name);
-
     const params = req;
     window.emailjs
       .send("service_0i7hhic", "template_v9ai9ec", params)
@@ -25,13 +22,9 @@ const Contact = ({ data }) => {
       });
   };
   const handleCraftreq = (req) => {
-    alert("handlecraft");
-    console.log("handleCraftreq req form_name", req.form_name);
     setFormstate({ ...formstate, isLoading: true, formSubmitted: true });
     handleSubmit(req);
   };
-
-  console.log("formstate contact", formstate);
 
   return (
     <div>

@@ -2,9 +2,6 @@ import React, { useState } from "react";
 import CircularProgress from "@mui/material/CircularProgress";
 
 const ContactForm = ({ data, handleCraftreq }) => {
-  console.log("ContactForm");
-  console.log("handleCraftreq", handleCraftreq);
-
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
@@ -22,8 +19,7 @@ const ContactForm = ({ data, handleCraftreq }) => {
   }
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert("i");
-    console.log("name", name);
+
     const req = {
       form_name: name,
       form_email: email,
