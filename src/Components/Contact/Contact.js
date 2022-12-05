@@ -6,7 +6,7 @@ import { CircularProgress } from "@mui/material";
 const Contact = ({ data }) => {
   const [formstate, setFormstate] = useState({
     isLoading: false,
-    formSubmitted: true,
+    formSubmitted: false,
   });
   const handleSubmit = (req) => {
     alert("submit");
