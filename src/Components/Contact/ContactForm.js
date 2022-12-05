@@ -37,13 +37,15 @@ const ContactForm = ({ data, handleCraftreq }) => {
     <section id="contact">
       <div className="row section-head">
         <div className="two columns header-col">
-          <h1>
+          <h1 style={{ color: "white" }}>
             <span>Get In Touch.</span>
           </h1>
         </div>
 
         <div className="ten columns">
-          <p className="lead">{contactMessage}</p>
+          <p className="lead" style={{ color: "white" }}>
+            {contactMessage}
+          </p>
         </div>
       </div>
 
@@ -118,7 +120,7 @@ const ContactForm = ({ data, handleCraftreq }) => {
         </div>
 
         <aside className="four columns footer-widgets">
-          <div className="widget widget_contact">
+          <div style={{ color: "white" }} className="widget widget_contact">
             <h4>Address and Phone</h4>
             <p className="address">
               {contactName}
