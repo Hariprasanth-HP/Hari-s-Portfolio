@@ -12,28 +12,35 @@ const Submitted = ({ data }) => {
     var contactMessage = data.contactmessage;
   }
   return (
-    <div style={{ display: "flex", padding: "50px", color: "white" }}>
-      <div style={{ width: "577px", heigt: "500px" }}>
-        <h1 style={{ color: "white" }}>Your form is submitted successfully</h1>
-      </div>
-
-      <aside className="four columns footer-widgets">
-        <div className="widget widget_contact">
-          <h4 style={{ color: "white" }}>Address and Phone</h4>
-          <p className="address">
-            {contactName}
-            <br />
-            {contactEmail}
-            <br />
-            <br />
-            {street} <br />
-            {city}, {state} {zip}
-            <br />
-            <span>{phone}</span>
-          </p>
+    <section id="contact">
+      <div
+        className="row section-head"
+        style={{ display: "flex", padding: "50px", color: "white" }}
+      >
+        <div style={{ width: "577px", heigt: "500px" }}>
+          <h1 style={{ color: "white" }}>
+            Your form is submitted successfully
+          </h1>
         </div>
-      </aside>
-    </div>
+
+        <aside className="four columns footer-widgets">
+          <div className="widget widget_contact">
+            <h4 style={{ color: "white" }}>Address and Phone</h4>
+            <p className="address">
+              {contactName}
+              <br />
+              {contactEmail}
+              <br />
+              <br />
+              {street} <br />
+              {city}, {state} {zip}
+              <br />
+              <span>{phone}</span>
+            </p>
+          </div>
+        </aside>
+      </div>
+    </section>
   );
 };
 
